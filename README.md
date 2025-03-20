@@ -33,4 +33,5 @@ HTML, CSS, JavaScript – Basic frontend for accessing CDN-hosted content
 4️⃣ Set up security policies to restrict or allow access
 5️⃣ Optimize caching & performance for better speed
 
-
+🌍 Accessing the CDN
+Once CloudFront is set up, users can access images/videos via the CloudFront URL: https://df5of8g7l9jxk.cloudfront.net
