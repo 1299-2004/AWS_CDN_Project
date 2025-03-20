@@ -33,5 +33,4 @@ HTML, CSS, JavaScript – Basic frontend for accessing CDN-hosted content
 4️⃣ Set up security policies to restrict or allow access
 5️⃣ Optimize caching & performance for better speed
 
-📌 Why This Project Matters
-A CDN helps deliver static assets efficiently across different regions, improving website performance and user experience. By implementing AWS S3 & CloudFront, this project showcases a scalable, cost-effective solution for serving media files with minimal latency.
+
