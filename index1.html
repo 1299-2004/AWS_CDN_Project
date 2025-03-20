@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature's Beauty</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #0a1a0a;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        header {
+            background: #0f260f;
+            padding: 15px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .hero h1 {
+            margin-top: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 80%;
+            max-width: 1000px;
+            border-radius: 10px;
+        }
+        .row {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .row img {
+            width: 22%;
+            max-width: 250px;
+            border-radius: 10px;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        .buttons button {
+            padding: 10px 20px;
+            margin: 10px;
+            background: #2a4a2a;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            background: #0f260f;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #5ec65e;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <h1>Welcome to the World of Nature</h1>
+        <div class="gallery">
+            <img src="waterfall.webp.png" alt="Waterfall Scene">
+            <div class="row">
+                <img src="lavender.webp.png" alt="Lavender Field">
+                <img src="beach.webp.png" alt="Beach at Sunset">
+                <img src="mountain.webp.png" alt="Mountain Lake">
+                <img src="tropical.webp.png" alt="Tropical Paradise">
+            </div>
+        </div>
+    </section>
+
+    <section id="video">
+        <h2>Experience Nature</h2>
+        <video width="80%" controls>
+            <source src="100195-video-720.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+    
+</body>
+</html>
+
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to our demo website. We aim to create an exceptional experience for our users, offering a range of services designed to meet your needs. Explore our site to learn more about what we offer.</p>
+        <div class="features">
+            <div class="feature">
+                <h3>Feature One</h3>
+                <p>This is a brief description of the first feature. It highlights the key benefits and details users can expect.</p>
+            </div>
+            <div class="feature">
+                <h3>Feature Two</h3>
+                <p>This section provides details about another aspect of our service, helping users understand its value.</p>
+            </div>
+            <div class="feature">
+                <h3>Feature Three</h3>
+                <p>We focus on quality and efficiency. Here's an outline of one more feature that makes our service unique.</p>
+            </div>
+        </div>
+        <div class="buttons">
+            <button>Get Started</button>
+            <button>Learn More</button>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Demo Website. All rights reserved.</p>
+        <p>Created by Shivyansh Rai | Contact: <a href="mailto:Shivyansh.Rai2022@iem.edu.in">Shivyansh.Rai2022@iem.edu.in</a></p>
+        <p>Follow us on: <a href="#">Twitter</a> | <a href="#">Facebook</a> | <a href="#">Instagram</a></p>
+    </footer>
+</body>
+</html>
