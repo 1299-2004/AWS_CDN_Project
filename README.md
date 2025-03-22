@@ -39,3 +39,9 @@ HTML, CSS, JavaScript – Basic frontend for accessing CDN-hosted content
 Once CloudFront is set up, users can access images/videos via the CloudFront URL: https://df5of8g7l9jxk.cloudfront.net
 
 ⚠️ Note: The CloudFront distribution has been disabled and emptied to avoid ongoing AWS costs. However, I have uploaded a full video showcasing the project, so everyone can see the implementation in action. 🎥🚀
+
+🔹 Video Includes Practical Demonstrations Of:
+✅ CDN setup with S3 – How to store and deliver static files
+✅ Website testing – Ensuring content is accessible across different devices
+✅ Project execution on another device – Checking CDN performance globally
+✅ Clean-up after project completion – Deleting resources to avoid AWS charges
