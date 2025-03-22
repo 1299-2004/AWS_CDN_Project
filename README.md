@@ -1,4 +1,4 @@
-Name-Shivyansh Rai
+👤 Name: Shivyansh Rai
 
 🌍 Cloud-Based Content Delivery Network (CDN)
 
@@ -37,3 +37,4 @@ HTML, CSS, JavaScript – Basic frontend for accessing CDN-hosted content
 
 🌍 Accessing the CDN
 Once CloudFront is set up, users can access images/videos via the CloudFront URL: https://df5of8g7l9jxk.cloudfront.net
+⚠️ Note: The CloudFront distribution has been disabled and emptied to avoid ongoing AWS costs. However, I have uploaded a full video showcasing the project, so everyone can see the implementation in action. 🎥🚀
